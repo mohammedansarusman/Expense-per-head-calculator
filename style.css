@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@100;200;300;600;800;900&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;300&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    
+}
+#background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #8990ec;
+}
+#main{
+    width: 360px;
+    height: 525px;
+    background-color: rgb(37, 36, 43);
+    border-radius: 25px;
+    position: relative;
+}
+.sub-session{
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    height: 400px;
+    width: 360px;
+
+}
+
+.heading{
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+#billTotalInput{
+    font-size: 20px;
+    font-weight: bold;
+}
+#tipInput{
+    font-size: 20px;
+    font-weight: bold;
+}
+#id-plus{
+width: 20px;
+height: 40px;
+}
+#id-minus{
+    width: 20px;
+    height: 40px;
+}
+.plus-minus{
+    font-size: 30px;
+}
+#count{
+    font-size: 30px;
+}
+.div-tot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color:blue;
+}

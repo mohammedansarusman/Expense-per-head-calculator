@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="style.css">        
+    </head>
+    <body>
+    <div id="background">
+        <div id="main">
+            <div class="sub-session">
+                    <p class="heading">Bill Amount</p>
+                    <input 
+                        type="text" 
+                        placeholder="0.00"
+                        id="billTotalInput"
+                        onkeyup="totCalculate()"
+                    >
+                    <!-- label TIP  -->
+                    <p class="heading">Tip Amount</p>
+                    <!-- input TIP -->
+                    <input 
+                        type="text"
+                        placeholder="0"
+                        id="tipInput"
+                        onkeyup="totCalculate()"
+                    >
+                    <p></p>
+                    <p class="heading">No of people</p>
+                    <button 
+                        id="id-plus" 
+                        onclick="countPlus()"
+                        >
+                        <span class="plus-minus">+</span>
+                    </button>
+                    <span id="count">1</span>
+                    <button 
+                        id="id-minus"
+                        onclick="countMinus()">
+                        <span class="plus-minus">-</span>
+                    </button>
+
+                    
+            </div>
+            <div class="div-tot">
+                <div class="amt-txt">
+                    <p>Amount Per Person: <span id="perHead">0</span></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
